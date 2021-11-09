@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThongTinSVActivity">
+
+    <ImageView
+        android:id="@+id/imgSinhVien"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
+    <TextView
+        android:id="@+id/txtTenSV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Họ tên sinh viên"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/txtMssv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStu_Id"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtLop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStu_Class"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtNgaySinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStu_Date"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtQue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStu_Place"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtDiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtStu_Sex"
+            android:textSize="24dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quản lý sinh viên</string>
+    <string name="txtLogin">Đăng nhập</string>
+    <string name="txtUser">Tên đăng nhập</string>
+    <string name="txtPass">Mật khẩu</string>
+    <string name="txtExit">Thoát</string>
+    <string name="txtHeader">Quản lý sinh viên</string>
+    <string name="txtListSV">Danh sách sinh viên</string>
+    <string name="txtListClass">Danh sách lớp</string>
+    <string name="txtAlertLogin">Tên tài khoản của bạn hoặc Mật khẩu không đúng, vui lòng thử lại</string>
+    <string name="txtStu_Id">MSSV</string>
+    <string name="txtStu_Class">Lớp</string>
+    <string name="txtStu_Date">Ngày sinh</string>
+    <string name="txtStu_Place">Quê quán</string>
+    <string name="txtStu_Sex">Giới tính</string>
+</resources>
