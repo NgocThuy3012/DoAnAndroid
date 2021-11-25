@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AboutActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Trần Thị Ngọc Thùy"
+    android:textSize="24dp"
+    android:textAlignment="center"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    android:textColor="#33B7FF"
+    android:paddingTop="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lớp: D18_TH10"
+            android:textSize="20dp"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MSSV: DH51805688"
+            android:textSize="20dp"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: dh51805688@student.stu.edu.vn"
+            android:textSize="20dp"
+            android:paddingTop="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SDT: "
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+            <TextView
+                android:id="@+id/txtSdt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0356131671"
+                android:textSize="20dp"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+<fragment
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:id="@+id/myMap"/>
+</LinearLayout>

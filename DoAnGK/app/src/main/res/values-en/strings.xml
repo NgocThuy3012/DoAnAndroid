@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Management</string>
+    <string name="txtLogin">LOGIN</string>
+    <string name="txtUser">Username</string>
+    <string name="txtPass">Password</string>
+    <string name="txtExit">Exit</string>
+    <string name="txtHeader">Student Management</string>
+    <string name="txtListSV">Student list</string>
+    <string name="txtListClass">Class list</string>
+    <string name="txtAlertLogin">Your account name or Password is incorrect, please try again</string>
+    <string name="txtStu_Id">Student ID</string>
+    <string name="txtStu_Class">Class</string>
+    <string name="txtStu_Date">Year of birth</string>
+    <string name="txtStu_Place">Place of orign</string>
+    <string name="txtStu_Sex">Sex</string>
+    <string name="txtDelet">Are you sure you want to delete?</string>
+    <string name="txtCancel">Cancel</string>
+    <string name="txtCall">Call</string>
+    <string name="txtID">Id</string>
+    <string name="txtName">Name</string>
+    <string name="txtSave">Save</string>
+    <string name="txtAdd">Add</string>
+    <string name="txtChange">You cannot change the id!</string>
+    <string name="map_api_key">AIzaSyB-XwdjAzK1PgBh1XisApsS3d3m8vxVWoU</string>
+    <string name="txtCheckID">ID exists!</string>
+</resources>
